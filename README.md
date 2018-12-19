@@ -8,14 +8,21 @@
 # Latex学习过程中的总结：
 ### 2018年12月19日：
 \documentclass{article}
+
 \usepackage{CJK}
+
 \newcommand{\song}{\CJKfamily{song}} % 宋体
+
 \begin{document}
+
 \begin{CJK*}{GBK}{song}
+
 \**********
 要写的内容都在里面操作
 ***********/
+
 \end{CJK*}
+
 \end{document}
 
 \begin{center}
