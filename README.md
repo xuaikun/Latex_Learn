@@ -9,13 +9,13 @@
 ### 2018年12月19日：
 \documentclass{article}
 
-\usepackage{CJK}
+\usepackage{CJK}   导入中文模块
 
 \newcommand{\song}{\CJKfamily{song}} % 宋体
 
-\begin{document}
+\begin{document}   文章编辑开始
 
-\begin{CJK*}{GBK}{song}
+\begin{CJK*}{GBK}{song}    导入字体模块,这里表示导入宋体
 
 \**********
 要写的内容都在里面操作
@@ -41,3 +41,30 @@ xxx \\ 表示xxx后面的为下一行，不会空两格
 
 \dotfill 点状分割线
 \hrulefill 条状分割线
+
+### 2018年12月20日：
+对于摘要部分可以使用下面的格式：
+\begin{abstract}
+中间就是摘要部分的内容，有些格式是默认的，也可以自己修改
+\end{abstract}
+
+http://math.ecnu.edu.cn/~latex/lect/lect03.pdf 选择字体尺寸
+修改字体的大小：
+\tiny         5pt
+\scriptsize   7pt
+\footnotesize 8pt
+\small        9pt
+\normalsize   10pt
+\large        12pt
+\Large        14.4pt
+\LARGE        17.28pt
+\huge         20.74pt
+\Hugu         24.88pt
+
+http://math.ecnu.edu.cn/~latex/examples/special-symbols.pdf 特殊符号的使用
+特殊符号使用：比如©
+\copyright
+
+http://math.ecnu.edu.cn/~latex/lect/lect04.pdf  数学公式的编辑
+数学公式的使用：比如n的2.2次方
+$ n^{2.2}$
