@@ -68,3 +68,12 @@ http://math.ecnu.edu.cn/~latex/examples/special-symbols.pdf 特殊符号的使�
 http://math.ecnu.edu.cn/~latex/lect/lect04.pdf  数学公式的编辑
 数学公式的使用：比如n的2.2次方
 $ n^{2.2}$
+
+### 2018年12月21日：
+对于分栏操作可以参考1102.tex，可以使文档达到任意的分栏格式
+\usepackage{multicol}  导入这个包
+\begin{multicols}{n}  表示以下的内容都以n分栏形式体现
+
+章节命令：http://math.ecnu.edu.cn/~latex/lect/lect05.pdf
+\section{xxx}  xxx为章节名字 \subsection{} 子章节
+
